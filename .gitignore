@@ -103,7 +103,7 @@ win32-build
 test/config.ini
 test/cache/*
 
-!src/leveldb*/Makefile
+
 
 /doc/doxygen/
 
