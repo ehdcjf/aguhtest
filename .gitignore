@@ -73,7 +73,7 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
+# Makefile
 aguhcoin-qt
 Aguhcoin-Qt.app
 
@@ -103,7 +103,7 @@ win32-build
 test/config.ini
 test/cache/*
 
-
+!src/leveldb*/Makefile
 
 /doc/doxygen/
 
